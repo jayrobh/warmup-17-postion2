@@ -1,0 +1,56 @@
+.keyword{
+    background-color: antiquewhite;
+    position:relative;
+}
+.tooltip{
+    background-color: azure;
+    position: absolute;
+    top: -20px;
+    left:0;
+    width:300px;
+    display:none;
+}
+.tooltip-trigger:hover .tooltip{
+    display:block;
+}
+.course{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.details{
+    background-color: azure;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    display:none;
+}
+.details-trigger:hover .details{
+    display: block;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    gap:10px;
+}
+.dropdown{
+    background-color: azure;
+    position:absolute;
+    top:100%;
+    left:0;
+    display: none;
+    list-style-type: none;
+}
+.dropdown-trigger{
+    position: relative;
+}
+.dropdown-trigger:hover .dropdown{
+    display: block;
+}
